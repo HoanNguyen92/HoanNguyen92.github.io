@@ -13,6 +13,7 @@
   contents:
     - title: PhD
       institution: Johannes Kepler University, Linz, Austria
+      institution: Johann Radon Institute (RICAM), Linz, Austria
       year: 2020 - 2023
       description:
         - title: Supervisors
@@ -20,17 +21,34 @@
             - Prof. Dr. Sergei Pereverzyev
             - Priv.-Doz. Dr. Bernhard Moser
             - Dr. Werner Zellinger
-        - Description 2.
-        - title: Description 3.
+        - title: Thesis
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Regularization in Reproducing Kernel Hilbert Spaces for Covariate Shift Domain Adaptation
+
+    - title: Master 2 ACSYON
+      institution: University of Limoges, France
+      year: 2016 - 2017
       description:
-        - Description 1.
-        - Description 2.
+        - title: Master ACSYON 
+          contents:
+            - Algorithmics, Symbolic Computation and Numerical Optimization
+    
+    - title: Master 1 - International Master Program in Mathematics
+      institution: Hanoi Institute of Mathematics, Hanoi, Vietnam
+      year: 2015 - 2016
+
+    - title: Bachelor of Mathematics
+      institution: Hanoi University of Science, Hanoi, Vietnam
+      year: 2010 - 2014
+      description:
+        - title: Senior Advisor
+          contents:
+            - Prof. Dr. Ho Dang Phuc
+        - title: Senior Thesis
+          contents:
+            -  Statistical Methods in Quality Control
+
+
 
 - title: Experience
   type: time_table
