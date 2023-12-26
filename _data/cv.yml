@@ -94,16 +94,13 @@
       institution: INSA de Rouen, France
       year: Mar - Aug, 2017
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
         - title: Advisors
           contents:
             - Prof. Jean-Guy Caputo and Prof. Arnaud Knippel
         - title: Subject
           contents:
             - Inverse source problem in a forced wave graph
+
 
 
 - title: Computer Skills
