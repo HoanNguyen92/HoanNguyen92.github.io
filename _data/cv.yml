@@ -8,6 +8,14 @@
     - name: Languages
       value: English, Vietnamese
 
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Domain Adaptation
+    - title: Machine Learning
+    - title: Learning Theory
+    - title: Inverse Problems
+
 - title: Education
   type: time_table
   contents:
@@ -60,59 +68,78 @@
         - title: Project leader
           contents:
             Prof. Nguyen Tien Dung
-        - Associated between the Torus Company, Toulouse, France and Artificial Intelligence Laboratory, Thang Long University.
+        - Associated between the Torus Company, Toulouse, France and Artificial Intelligence Laboratory, Thang Long University, Vietnam
 
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Work on the Hanoi Formal Abstract project
+      institution: Thang Long University
+      year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - title: Project leader
+          contents:
+            Prof. Thomas Hales
+        - Associated between the University of Pittsburgh, US and Thang Long University, Vietnam
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Internship in Hanoi Institute of Mathematics
+      institution: Hanoi Institute of Mathematics, Hanoi, Vietnam
+      year: Oct, 2017 - Dec, 2018
+      description:
+        - title: Advisor
+          contents:
+            Prof. Dinh Nho Hao
+        - title: Subject
+          contents:
+            Inverse source problem
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Internship in INSA de Rouen
+      institution: INSA de Rouen, France
+      year: Mar - Aug, 2017
       description:
 
     - title: Associate Professor of Theoretical Physics
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
+        - title: Advisors
+          contents:
+            Prof. Jean-Guy Caputo and Prof. Arnaud Knippel
+        - title: Subject
+          contents:
+            Inverse source problem in a forced wave graph
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Computer Skills
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Software
       items:
-        - Description 1.
-        - Description 2.
+        - MATLAB
+        - PyTorch
+        - TensorFlow
+
+    - title: Programming
+      items:
+        - Python
+        - C/C++
+        - LEAN
+
+- title: Awards and Fellowships
+  type: time_table
+  contents:
+    - year: 2016 - 2017
+      items: 
+        - Master scholarship, LabEX Sigma Lim, University of Limoges, France
+    - year: 2012 - 2014
+      items: 
+        - Annual Scholarship for excellent students, Vietnam National University
+
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Badminton
