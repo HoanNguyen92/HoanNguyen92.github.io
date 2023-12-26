@@ -67,7 +67,7 @@
       description:
         - title: Project leader
           contents:
-            Prof. Nguyen Tien Dung
+            - Prof. Nguyen Tien Dung
         - Associated between the Torus Company, Toulouse, France and Artificial Intelligence Laboratory, Thang Long University, Vietnam
 
     - title: Work on the Hanoi Formal Abstract project
@@ -76,7 +76,7 @@
       description:
         - title: Project leader
           contents:
-            Prof. Thomas Hales
+            - Prof. Thomas Hales
         - Associated between the University of Pittsburgh, US and Thang Long University, Vietnam
 
     - title: Internship in Hanoi Institute of Mathematics
@@ -85,10 +85,10 @@
       description:
         - title: Advisor
           contents:
-            Prof. Dinh Nho Hao
+            - Prof. Dinh Nho Hao
         - title: Subject
           contents:
-            Inverse source problem
+            - Inverse source problem
 
     - title: Internship in INSA de Rouen
       institution: INSA de Rouen, France
@@ -100,17 +100,11 @@
       year: 1909 - 1911
         - title: Advisors
           contents:
-            Prof. Jean-Guy Caputo and Prof. Arnaud Knippel
+            - Prof. Jean-Guy Caputo and Prof. Arnaud Knippel
         - title: Subject
           contents:
-            Inverse source problem in a forced wave graph
+            - Inverse source problem in a forced wave graph
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Computer Skills
   type: nested_list
