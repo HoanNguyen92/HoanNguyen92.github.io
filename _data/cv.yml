@@ -53,16 +53,15 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Work on the Skin fungal diseases detection
+      institution: Thang Long University
+      year: 2019 - 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Project leader
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            Prof. Nguyen Tien Dung
+        - Associated between the Torus Company, Toulouse, France and Artificial Intelligence Laboratory, Thang Long University.
+
     - title: Visiting Professor
       institution: California Institute of Technology, Pasadena, California, US
       year: 1933

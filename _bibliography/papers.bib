@@ -4,16 +4,32 @@
 @string{aps = {American Physical Society,}}
 
 @article{ICLR,
-abbr={ICLR},
-bibtex_show={true},
-title={Addressing Parameter Choice Issues in Unsupervised Domain Adaptation by Aggregation},
-author={Dinu, M.-C. and Holzleitner, M. and Beck, M. and Nguyen, H. D. and Huber, A. and Eghbal-zadeh, H. and Moser, B. A. and Pereverzyev, S. and Hochreiter, S. and Zellinger, W.},
-booktitle={The Eleventh International Conference on Learning Representations},
-year={2023},
-url={https://openreview.net/forum?id=M95oDwJXayG},
-html = {https://openreview.net/forum?id=M95oDwJXayG&referrer=%5Bthe%20profile%20of%20Hoan%20Duc%20Nguyen%5D(%2Fprofile%3Fid%3D~Hoan_Duc_Nguyen1)},
-selected={true}
+  abbr={ICLR},
+  bibtex_show={true},
+  title={Addressing Parameter Choice Issues in Unsupervised Domain Adaptation by Aggregation},
+  author={Dinu, M.-C. and Holzleitner, M. and Beck, M. and Nguyen, D. H. and Huber, A. and Eghbal-zadeh, H. and Moser, B. A. and Pereverzyev, S. and Hochreiter, S. and Zellinger, W.},
+  journal = {The Eleventh International Conference on Learning Representations},
+  year={2023},
+  abstract = {We study the problem of choosing algorithm hyper-parameters in unsupervised domain adaptation, i.e., with labeled data in a source domain and unlabeled data in a target domain, drawn from a different input distribution. We follow the strategy to compute several models using different hyper-parameters, and, to subsequently compute a linear aggregation of the models. While several heuristics exist that follow this strategy, methods are still missing that rely on thorough theories for bounding the target error. In this turn, we propose a method that extends weighted least squares to vector-valued functions, e.g., deep neural networks. We show that the target error of the proposed algorithm is asymptotically not worse than twice the error of the unknown optimal aggregation. We also perform a large scale empirical comparative study on several datasets, including text, images, electroencephalogram, body sensor signals and signals from mobile phones. Our method outperforms deep embedded validation (DEV) and importance weighted validation (IWV) on all datasets, setting a new state-of-the-art performance for solving parameter choice issues in unsupervised domain adaptation with theoretical error guarantees. We further study several competitive heuristics, all outperforming IWV and DEV on at least five datasets. However, our method outperforms each heuristic on at least five of seven datasets.},
+  url={https://openreview.net/forum?id=M95oDwJXayG},
+  html = {https://openreview.net/forum?id=M95oDwJXayG&referrer=%5Bthe%20profile%20of%20Hoan%20Duc%20Nguyen%5D(%2Fprofile%3Fid%3D~Hoan_Duc_Nguyen1)},
+  selected={true}
 }
+
+. . , .
+
+@article{NeurIPS,
+  abbr={NeurIPS},
+  bibtex_show={true},
+  title={The balancing principle for parameter choice in distance-regularized domain adaptation},
+  author={W. Zellinger and N. Shepeleva and M.Dinu and H. Eghbalzadeh and D. H. Nguyen and B. Nessler and S. Pereverzyev and B. A. Moser},
+  abstract = {We address the unsolved algorithm design problem of choosing a justified regularization parameter in unsupervised domain adaptation. This problem is intriguing as no labels are available in the target domain. Our approach starts with the observation that the widely-used method of minimizing the source error, penalized by a distance measure between source and target feature representations, shares characteristics with regularized ill-posed inverse problems. Regularization parameters in inverse problems are optimally chosen by the fundamental principle of balancing approximation and sampling errors. We use this principle to balance learning errors and domain distance in a target error bound. As a result, we obtain a theoretically justified rule for the choice of the regularization parameter. In contrast to the state of the art, our approach allows source and target distributions with disjoint supports. An empirical comparative study on benchmark datasets underpins the performance of our approach.},
+  journal = {Advances in Neural Information Processing Systems},
+  year={2021},
+  url={https://openreview.net/forum?id=TSxWhJRk4oF},
+  html = {https://openreview.net/forum?id=TSxWhJRk4oF&referrer=%5Bthe%20profile%20of%20Hoan%20Duc%20Nguyen%5D(%2Fprofile%3Fid%3D~Hoan_Duc_Nguyen1)}
+}
+
 
 @article{acha2022,
   abbr={ACHA},
@@ -30,4 +46,30 @@ selected={true}
   author = {Gizewski, E. R. and Mayer, L. and Moser, B. A. and Nguyen, D. H. and Pereverzyev Jr, S. and Pereverzyev, S. V. and Shepeleva,  N. and Zellinger, W.},
   html = {https://www.sciencedirect.com/science/article/pii/S1063520321001032},
   selected={true}
+}
+
+@article{radon,
+  abbr={preprint},
+  bibtex_show={true},
+  title={On regularized Radon-Nikodym differentiation}, 
+  author={Duc Hoan Nguyen and Werner Zellinger and Sergei V. Pereverzyev},
+  year={2023},
+  abstract = {We discuss the problem of estimating Radon-Nikodym derivatives. This problem appears in various applications, such as covariate shift adaptation, likelihood-ratio testing, mutual information estimation, and conditional probability estimation. To address the above problem, we employ the general regularization scheme in reproducing kernel Hilbert spaces. The convergence rate of the corresponding regularized algorithm is established by taking into account both the smoothness of the derivative and the capacity of the space in which it is estimated. This is done in terms of general source conditions and the regularized Christoffel functions. We also find that the reconstruction of Radon-Nikodym derivatives at any particular point can be done with high order of accuracy. Our theoretical results are illustrated by numerical simulations.},
+  eprint={2308.07887},
+  archivePrefix={arXiv},
+  primaryClass={math.ST},
+  html = {https://arxiv.org/abs/2308.07887},
+}
+
+@article{thesis,
+  abbr={preprint},
+  bibtex_show={true},
+  title={General regularization in covariate shift adaptation}, 
+  author={Duc Hoan Nguyen and Sergei V. Pereverzyev and Werner Zellinger},
+  abstract = {Sample reweighting is one of the most widely used methods for correcting the error of least squares learning algorithms in reproducing kernel Hilbert spaces (RKHS), that is caused by future data distributions that are different from the training data distribution. In practical situations, the sample weights are determined by values of the estimated Radon-Nikodým derivative, of the future data distribution w.r.t. the training data distribution. In this work, we review known error bounds for reweighted kernel regression in RKHS and obtain, by combination, novel results. We show under weak smoothness conditions, that the amount of samples, needed to achieve the same order of accuracy as in the standard supervised learning without differences in data distributions, is smaller than proven by state-of-the-art analyses.},
+  year={2023},
+  eprint={2307.11503},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  html = {https://arxiv.org/abs/2307.11503}
 }
