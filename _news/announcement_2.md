@@ -1,8 +1,7 @@
 ---
 layout: post
-title: A long announcement with details
 date: 2023-11-28 17:00:00-0400
-inline: false
+inline: true
 related_posts: false
 ---
 
