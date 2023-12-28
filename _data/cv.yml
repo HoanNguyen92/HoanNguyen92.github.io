@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Duc-Hoan Nguyen
+      value: Duc-Hoan  Nguyen
     # - name: Date of Birth
     #   value: 14th March 1879
     - name: Languages
-      value: Vietnamese (native), English (fluent), German (A1), French (A1) 
+      value: Vietnamese (native), English (fluent)
 
 - title: Academic Interests
   type: nested_list
