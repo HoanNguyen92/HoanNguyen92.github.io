@@ -6,7 +6,7 @@
     # - name: Date of Birth
     #   value: 14th March 1879
     - name: Languages
-      value: English, Vietnamese
+      value: Vietnamese (native), English (fluent), German (A1), French (A1) 
 
 - title: Academic Interests
   type: nested_list
@@ -61,6 +61,9 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Reviewer for NeurIPS 2023, ICML 2024 conferences   	
+      year: 2023 - 2024
+
     - title: Work on the Skin fungal diseases detection
       institution: Thang Long University
       year: 2019 - 2020
@@ -77,7 +80,7 @@
         - title: Project leader
           contents:
             - Prof. Thomas Hales
-        - Associated between the University of Pittsburgh, US and Thang Long University, Vietnam
+        - Associated between the University of Pittsburgh, Carnegie Mellon University, US, and Thang Long University, Vietnam
 
     - title: Internship in Hanoi Institute of Mathematics
       institution: Hanoi Institute of Mathematics, Hanoi, Vietnam
@@ -134,4 +137,3 @@
   type: list
   contents:
     - Badminton
-    - Football
