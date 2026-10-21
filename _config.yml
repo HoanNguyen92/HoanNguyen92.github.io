@@ -272,7 +272,7 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 scholar:
 
   last_name: [Nguyen]
-  first_name: [Duc Hoan, D. H.]
+  first_name: [Duc Hoan, D. H., Hoan D.]
 
   style: apa
   locale: en
